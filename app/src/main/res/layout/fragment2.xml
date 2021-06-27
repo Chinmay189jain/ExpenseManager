@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1DFDE"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:layout_width="25dp"
+                android:layout_height="50dp"/>
+            <TextView
+                android:layout_width="210dp"
+                android:layout_height="50dp"
+                android:textSize="25dp"
+                android:text="Expense History :"
+                android:fontFamily="sans-serif-smallcaps"
+                android:paddingTop="10dp"
+                android:textColor="#D60B0B"/>
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="50dp"/>
+            <ImageButton
+                android:id="@+id/delete_expense"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ic_baseline_delete_24_transaction"/>
+        </TableRow>
+    </TableLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+    <ListView
+        android:id="@+id/list_expense"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:choiceMode="singleChoice"/>
+
+</LinearLayout>

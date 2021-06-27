@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About"
+    android:orientation="vertical"
+    android:background="@drawable/blue">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="App Developer :"
+            android:fontFamily="casual"
+            android:textColor="#FFC107"
+            android:textSize="35dp"
+            android:layout_gravity="center"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="CHINMAY JAIN"
+            android:fontFamily="sans-serif-smallcaps"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+        <ImageView
+            android:id="@+id/linkedin"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/lnkdn"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About app :"
+            android:fontFamily="casual"
+            android:textColor="#FFC107"
+            android:textSize="35dp"
+            android:layout_gravity="center"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:fontFamily="sans-serif-light"
+            android:text="This app is used for maintaining records of daily Income and Expenses.
+        \n\nIt contains Add Income and Add Expense activity which is used for saving income and expense records with respective date.
+         \n\nAll transaction activity contains details of all transactions(Income and Expenses) .
+        \n\nNotes activity is  used for saving our important note. It contains speech to text feature also. So that we can use it instead of writing."
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+
+    </LinearLayout>
+</ScrollView>
